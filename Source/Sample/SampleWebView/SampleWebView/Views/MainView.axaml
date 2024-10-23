@@ -24,17 +24,16 @@
 
         <!-- Text in the other quarters -->
         <WebView Grid.Row="0" Grid.Column="1" x:Name="PART_WebView3" 
-                 Url="http://www.bilibili.com" />
+                 Url="https://tetris.com/play-tetris#google_vignette" />
 
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Quarter 3" 
                    HorizontalAlignment="Center" VerticalAlignment="Center" />
 
         <WebView Grid.Row="1" Grid.Column="1" x:Name="PART_WebView2" 
-                 Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/html/page2.html" />
+                 Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/html/plotlygraph.html" />
 
     </Grid>
 
 			<!-- <WebView x:Name="PART_WebView" Grid.Row="1" Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/index.html"></WebView> -->
-
 
 </UserControl>

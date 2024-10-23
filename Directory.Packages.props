@@ -11,11 +11,13 @@
     <PackageVersion Include="Microsoft.Extensions.FileProviders.Abstractions" Version="7.0.0" />
     <PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="7.0.0" />
     <PackageVersion Include="Microsoft.Web.WebView2" Version="1.0.1823.32" />
+    <PackageVersion Include="Plotly.NET" Version="5.1.0" />
     <PackageVersion Include="System.Buffers" Version="4.5.1" />
     <PackageVersion Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
     <PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
     <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
     <PackageVersion Include="WebkitGtkSharp" Version="3.24.24.95" />
+    <PackageVersion Include="Websocket.Client" Version="5.1.2" />
     <PackageVersion Include="XamarinMac" Version="1.0.0" />
     <PackageVersion Include="XamlNameReferenceGenerator" Version="1.5.1" />
     <PackageVersion Include="Avalonia" Version="$(AvaloniaVersion)" />
