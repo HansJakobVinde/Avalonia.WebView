@@ -6,6 +6,35 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SampleWebView.Views.MainView" >
 
-			<WebView x:Name="PART_WebView" Grid.Row="1" Url="http://www.bilibili.com"></WebView>
+             <!-- Define a Grid with 2 rows and 2 columns -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/> <!-- First Row -->
+            <RowDefinition Height="*"/> <!-- Second Row -->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/> <!-- First Column -->
+            <ColumnDefinition Width="*"/> <!-- Second Column -->
+        </Grid.ColumnDefinitions>
+
+        <!-- WebView in the upper-left quarter -->
+        <WebView Grid.Row="0" Grid.Column="0" x:Name="PART_WebView1" 
+                 Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/html/page1.html" />
+
+        <!-- Text in the other quarters -->
+        <WebView Grid.Row="0" Grid.Column="1" x:Name="PART_WebView3" 
+                 Url="http://www.bilibili.com" />
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Quarter 3" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <WebView Grid.Row="1" Grid.Column="1" x:Name="PART_WebView2" 
+                 Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/html/page2.html" />
+
+    </Grid>
+
+			<!-- <WebView x:Name="PART_WebView" Grid.Row="1" Url="file:///Users/hansjakobvinde/Revolve/test_webview/Avalonia.WebView/Source/Sample/SampleWebView/SampleWebView/Views/index.html"></WebView> -->
+
 
 </UserControl>
